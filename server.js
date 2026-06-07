@@ -5,7 +5,6 @@ import connectDB from "./config/db.js";
 
 import productRoutes from "./routes/product.js";
 import paymentRoutes from "./routes/payment.js";
-app.use("/api/order", orderRoutes)
 import authRoutes from "./routes/auth.js";
 
 dotenv.config();
